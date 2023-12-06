@@ -690,6 +690,24 @@ a {
   font-weight: 200;
 }
 
+@media (max-width: 767px) {
+  .half-screen {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+
+  .half-screen img {
+    width: 100%; /* Ocupando toda a largura */
+    height: 20vh; /* Reduzindo a altura da imagem para 30% da altura da tela */
+    object-fit: cover;
+  }
+
+  .half-screen:nth-child(2) {
+    order: -1;
+  }
+}
+
 
 /* Certificados */
 
