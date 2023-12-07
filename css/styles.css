@@ -841,6 +841,7 @@ div.certificado .bg {
   border-radius: 20px;
   place-items: center;
   padding: 2rem 0 2rem 3rem;
+
   @media screen and (max-width: 1200px) {
     padding: 2rem 1rem;
   }
@@ -894,6 +895,7 @@ div.certificado .bg {
     width: 50%;
     margin-right: 0;
   }
+
   @media screen and (max-width: 500px) {
     width: 100%;
   }
@@ -916,8 +918,56 @@ div.certificado .bg {
   padding-left: 10px;
 }
 
-.cta-curso .curso{
+.cta-curso .curso {
   @media screen and (max-width: 1200px) {
     margin: 0 auto;
   }
+}
+
+
+
+/* Ementa */
+
+.ementa {
+  background-color: #DEDEDE;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  margin: 3rem 0;
+}
+
+.ementa h2 {
+  color: #4687C2;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.ementa .row-ementa{
+  margin-top: 2rem;
+}
+
+.ementa .modulo {
+  text-align: left;
+  padding: 1rem 2rem;
+}
+
+.ementa .modulo h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ementa .modulo ul li {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
